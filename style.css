@@ -18,13 +18,19 @@ body {
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
-}
+
+  .matrix { 
+    text-align: center;
+  }
+
 }
 .todo-sections {
     display: block;
     width: 500px;
     margin: 0 auto 0;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Lato, sans-serif;
 }
 .task {
     width: 56%;
