@@ -1,9 +1,4 @@
 /* Basic Style */
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
 .matrix {
   width: 500px;
   margin: 0 auto;
@@ -65,7 +60,7 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3,
+.todo-sections__section-title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -101,7 +96,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.todo-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
